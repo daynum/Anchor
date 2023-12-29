@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-0ub^6bzpefcq7ej2ce+h(d#zuanbs-(2+1zb)hh&oadw6dy6k2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'google_news',
+    'hacker_news',
 ]
 
 MIDDLEWARE = [
